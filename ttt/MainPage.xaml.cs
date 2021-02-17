@@ -14,6 +14,7 @@ namespace ttt
         public MainPage()
         {
             InitializeComponent();
+
         }
 
         async void Button_Clicked(System.Object sender, System.EventArgs e)
