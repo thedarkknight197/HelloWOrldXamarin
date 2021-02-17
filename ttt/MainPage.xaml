@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ttt.MainPage">
+
+    <StackLayout Margin="120,20">
+       <Label HorizontalTextAlignment="Center" Text="Avvia Fotocamera"/>
+        <Button Text="Scatta" Clicked="Button_Clicked"/>
+        <Image x:Name="resultImage"/>
+    </StackLayout>
+
+</ContentPage>
